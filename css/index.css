@@ -1,0 +1,124 @@
+body {
+    font-family: 'Barlow', sans-serif;
+}
+
+#top-bar {
+    background: rgb(49, 49, 49);
+    font-family: 'Barlow', sans-serif;
+    color: #fff;
+}
+
+#top-bar .phone-number {
+    font-size: 14px;
+}
+
+.carousel-item-one {
+    height: 70vh;
+    background-image: url('https://images.pexels.com/photos/1170979/pexels-photo-1170979.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.7); 
+}
+
+.carousel-item-two {
+    background-image: url('https://images.pexels.com/photos/935949/pexels-photo-935949.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    height: 70vh;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.7); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carousel-item-three {
+    background-image: url('https://images.pexels.com/photos/2324837/pexels-photo-2324837.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    height: 70vh;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.7); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -200px;
+}
+
+.banner-content{
+    color: #fff;
+    margin-top: 140px;
+}
+
+.banner-content h1 {
+    font-size: 55px;
+    font-weight: 900;
+}
+
+.fade-in-section {
+    opacity: 0;
+    transform: translateY(20vh);
+    visibility: hidden;
+    transition: opacity 0.6s ease-out, transform 1.2s ease-out;
+    will-change: opacity, visibility;
+  }
+  .fade-in-section.is-visible {
+    opacity: 1;
+    transform: none;
+    visibility: visible;
+  }
+
+  .who {
+    animation-duration: 2s;
+    animation-delay: 0.5s;
+  }
+
+  .what-images {
+      border-radius: 50%;
+      width: 250px;
+  }
+
+  .what-title {
+      font-size: 20px;
+      font-weight: bold;
+      margin-top: 15px;
+  }
+
+  #jobs {
+      background-color: #F7F7F7;
+  }
+
+  .count {
+      color: #6b64ff;
+      font-size: 50px;
+      font-weight: bold;
+}
+
+.count-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#footer {
+    background: rgb(46, 46, 46);
+    padding: 30px 0;
+}
+
+#footer p {
+    color: #fff;
+    font-size: 15px;
+}
+
+#footer h5 {
+    color: #fff;
+}
+#footer ul {
+    margin: 0;
+    padding: 0;
+}
+#footer ul li {
+    list-style-type: none;
+    color: #fff;
+    margin: 10px 0;
+}
+
+#footer ul li a {
+    color: #c3c3c3;
+}
+
+@media screen and (max-width:600px){
+    .banner-content h1 {
+        font-size: 30px;
+        font-weight: 900;
+    }
+}
